@@ -13,7 +13,7 @@
         <item
             android:id="@+id/coffee_order"
             android:icon="@mipmap/ic_free_breakfast_black_24dp"
-            android:title="Coffee Order" />
+            android:title="Coffee Order"/>
         <item
             android:id="@+id/tea_info"
             android:icon="@mipmap/ic_local_drink_black_24dp"
