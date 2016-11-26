@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@mipmap/ic_home_black_24dp"
+            android:title="Home"/>
+        <item
+            android:id="@+id/lunch"
+            android:icon="@mipmap/ic_room_service_black_24dp"
+            android:title="Lunch" />
+        <item
+            android:id="@+id/coffee_order"
+            android:icon="@mipmap/ic_free_breakfast_black_24dp"
+            android:title="Coffee Order" />
+        <item
+            android:id="@+id/tea_info"
+            android:icon="@mipmap/ic_local_drink_black_24dp"
+            android:title="Tea" />
+        <item
+            android:id="@+id/announcement"
+            android:icon="@mipmap/ic_announcement_black_24dp"
+            android:title="Announcement" />
+        <item
+            android:id="@+id/school_calender"
+            android:icon="@mipmap/ic_perm_contact_calendar_black_24dp"
+            android:title="School Calender"/>
+        <item
+            android:id="@+id/power_school"
+            android:icon="@mipmap/ic_grade_black_24dp"
+            android:title="Power School"/>
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/user"
+                android:icon="@drawable/ic_menu_share"
+                android:title="User" />
+            <item
+                android:id="@+id/setting"
+                android:icon="@mipmap/ic_settings_black_24dp"
+                android:title="Setting" />
+        </menu>
+    </item>
+
+</menu>
